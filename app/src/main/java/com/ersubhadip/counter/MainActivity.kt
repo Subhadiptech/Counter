@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
+
         var counter = MainDataBinder("0")
         binding.setCount = counter
 

@@ -6,7 +6,7 @@ class MainViewModel : ViewModel() {
     var count = 0
 
     fun increase(): Int {
-        return count++
+        return ++count
 
     }
 
